@@ -336,10 +336,10 @@ ul {
         transition: all .5s ease-in-out;
     }
     .bar::before {
-        transform:translateY(-12px)
+        transform:translateY(-9px)
     }
     .bar::after {
-        transform:translateY(12px)
+        transform:translateY(9px)
     }
     .show-nav .bar {
         width:0;
