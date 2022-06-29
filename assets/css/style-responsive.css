@@ -75,6 +75,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 374px){
+    .footer-mail {
+        margin-left: 20px;
+    }
+    .footer-phone {
+        margin-left: 20px;
+    }
     .p-2b {
         padding: 0 12px;
 
@@ -392,6 +398,10 @@
         text-align: left;
     }
 
+    .footer-mail, .footer-phone {
+        margin-left: 20px;
+    }
+
     .nav-logo {
         width: 118px;
     }
@@ -558,6 +568,15 @@
     }
     .p-4 {
         margin-right: 15px;
+    }
+    .footer-mail {
+        margin-left: 20px;
+    }
+    .footer-phone {
+        margin-left: 20px;
+    }
+    .icon-web-footer {
+        margin-left: 20px;
     }
     .text-image-1 {
         display: block;
