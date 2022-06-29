@@ -32,6 +32,9 @@
     display: flex;
 
 }
+.flex-icon{
+    display: flex;
+}
 .drop-hidden {
     display: none;
 }
