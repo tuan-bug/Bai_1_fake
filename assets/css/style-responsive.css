@@ -1,0 +1,824 @@
+
+@media (min-width: 425px) and (max-width: 739px) {
+    .p-l-r {
+        padding: 0 20px;
+    }
+    .banner-01 {
+        margin-top: 30px;
+        width: 100%;
+        position: relative;
+        height: auto;
+        min-height: 310px;
+    }
+    .banner-02 {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .img-banner-000 {
+        width: 100%;
+    }
+
+    .img-banner-01{
+        position: absolute;
+        height: 93.5%;
+    }
+    .banner-03-position {
+        top: 60%;
+    }
+    .txt-bly {
+        font-size: 46px;
+    }
+    .txt-eye {
+        font-size: 29px;
+    }
+    .text-banner-02 {
+        font-size: 15px;
+    }
+    .text-ads2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .text-title-ads3 {
+        font-size: 24px;
+    }
+    .text-content-ads3 {
+        font-size: 28px;
+    }
+    .cart-shop {
+        width: 350px;
+    }
+    .title-cart {
+        margin-left: 14px;
+    }
+    .cart-to-price{
+        margin-left: 14px;
+    }
+
+    .name-product {
+        padding-left: 20px;
+    }
+    .stars {
+        padding-left: 20px;
+    }
+    .price-item {
+        padding-left: 20px;
+    }
+    .product-item-1 {
+        padding: 0 20px;
+    }
+    .title-product {
+        padding: 0 20px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    .p-2b {
+        padding: 0 12px;
+
+    }
+    .p-2a {
+        padding: 0 20px;
+    }
+    .search-menu-hinden {
+        display: block;
+    }
+    .click-search {
+        display: none;
+    }
+
+    .gray-icon-bank {
+        font-size: 18px;
+    }
+
+    .p-product-title {
+        margin-top: 40px;
+    }
+    .title-product {
+        margin-bottom: 30px;
+    }
+
+    .btn-item {
+        width: 80px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .blog {
+        height: 600px;
+    }
+    .title-blog-list {
+        margin-top: 30px;
+    }
+    .footer-info {
+        display: block;
+    }
+
+
+    .cart-shop {
+        width: 310px;
+    }
+
+
+    .product-item {
+        position: relative;
+    }
+
+    .banner-01 {
+        margin-top: 30px;
+        width: 100%;
+        position: relative;
+        height: auto;
+        max-height: 350px;
+        min-height: 200px;
+    }
+    .banner-02 {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-banner-01{
+        position: absolute;
+        height: 93.5%;
+    }
+    .img-banner-000 {
+        width: 100%;
+    }
+    .banner-03-position {
+        top: 60%;
+    }
+    .txt-bly {
+        font-size: 30px;
+    }
+    .txt-eye {
+        font-size: 23px;
+    }
+    .text-banner-02 {
+        font-size: 14px;
+    }
+    .text-ads2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .p-white {
+        display: none;
+    }
+    .menu a {
+        display: none;
+    }
+    .nav-logo a.icon-menu {
+        float: right;
+        display: block;
+    }
+
+    /*    ddoanj nayf ddeer bawt ben js*/
+    .menu.responsive {position: relative;}
+    .nav-logo.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-logo {
+        width: 126px;
+    }
+    .p-logo {
+        letter-spacing: 4px;
+        font-size: 16px;
+        text-align: inherit;
+    }
+    .like-product {
+        display: none;
+    }
+    .p-4 {
+        margin-right: 15px;
+    }
+    .text-image-1 {
+        display: block;
+        font-size: 14px;
+    }
+    .banner-position {
+        position: absolute;
+        height: auto;
+        right: 6.5%;
+        z-index: 1;
+        top: 54%;
+        text-align: right;
+    }
+
+    .banner-03-position {
+        top: 33%;
+    }
+
+    .text-title-ads3 {
+        font-size: 18px;
+    }
+    .text-content-ads3 {
+        font-size: 22px;
+    }
+    .btn-item-ads3 {
+        width: 90px;
+        height: 35px;
+    }
+
+    .mt-4 {
+        margin: 0 20px;
+    }
+
+    .footer-title {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .footer-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .icon-web {
+        margin-top: 25px;
+        padding: 0 20px;
+    }
+    .footer-navigation {
+        margin-left: 20px;
+    }
+    .footer-address {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .text-information{
+        display: none;
+    }
+    .text-by {
+        display: none;
+    }
+    .footer-end{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .p-img-product {
+        padding: 0 10px;
+    }
+    .btn-product-add {
+        width: 120px;
+        left: 2%;
+        top: 86%;
+    }
+    .name-product {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .stars {
+        padding-left: 20px;
+    }
+    .price-item {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 516px) {
+    .blog {
+        height: 705px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+
+    .p-2b {
+        padding: 0 12px;
+
+    }
+    .p-2a {
+        padding: 0 20px;
+    }
+    .search-menu-hinden {
+        display: block;
+    }
+    .click-search {
+        display: none;
+    }
+
+    .btn-item {
+        width: 80px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .blog {
+        height: 600px;
+    }
+    .title-blog-list {
+        margin-top: 30px;
+    }
+    .footer-info {
+        display: block;
+    }
+
+
+    .cart-shop {
+        width: 310px;
+    }
+
+
+    .product-item {
+        position: relative;
+    }
+
+    .banner-01 {
+        margin-top: 30px;
+        width: 100%;
+        position: relative;
+        height: auto;
+        max-height: 350px;
+        min-height: 300px;
+    }
+    .banner-02 {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-banner-01{
+        position: absolute;
+        height: 93.5%;
+    }
+    .img-banner-000 {
+        width: 100%;
+    }
+    .banner-03-position {
+        top: 60%;
+    }
+    .txt-bly {
+        font-size: 30px;
+    }
+    .txt-eye {
+        font-size: 23px;
+    }
+    .text-banner-02 {
+        font-size: 14px;
+    }
+    .text-ads2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .p-white {
+        display: none;
+    }
+    .menu a {
+        display: none;
+    }
+    .nav-logo a.icon-menu {
+        float: right;
+        display: block;
+    }
+
+    /*    ddoanj nayf ddeer bawt ben js*/
+    .menu.responsive {position: relative;}
+    .nav-logo.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-logo {
+        width: 118px;
+    }
+    .p-logo {
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin-left: 2px;
+        align-items: inherit;
+    }
+    .like-product {
+        display: none;
+    }
+    .p-4 {
+        margin-right: 15px;
+    }
+    .text-image-1 {
+        display: block;
+        font-size: 16px;
+    }
+    .banner-position {
+        position: absolute;
+        height: auto;
+        right: 6.5%;
+        z-index: 1;
+        top: 54%;
+        text-align: right;
+    }
+
+    .banner-03-position {
+        top: 33%;
+    }
+
+    .text-title-ads3 {
+        font-size: 18px;
+    }
+    .text-content-ads3 {
+        font-size: 22px;
+    }
+    .btn-item-ads3 {
+        width: 90px;
+        height: 35px;
+    }
+
+    .mt-4 {
+        margin: 0 20px;
+    }
+
+    .footer-title {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .footer-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .icon-web {
+        margin-top: 25px;
+        padding: 0 20px;
+    }
+    .footer-navigation {
+        margin-left: 20px;
+    }
+    .footer-address {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .text-information{
+        display: none;
+    }
+    .text-by {
+        display: none;
+    }
+    .footer-end{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .p-img-product {
+        padding: 0 10px;
+    }
+    .btn-product-add {
+        width: 120px;
+        left: 2%;
+        top: 86%;
+    }
+    .name-product {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .stars {
+        padding-left: 20px;
+    }
+    .price-item {
+        padding-left: 20px;
+    }
+}
+
+/*@media (max-width: 424px){*/
+/*    .btn-product-add {*/
+/*        height: 30px;*/
+/*        width: 90px;*/
+/*        left: 2%;*/
+/*        top: 79%;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 376px) and (max-width: 739px) {
+    .search-menu-hinden {
+        display: block;
+    }
+    .click-search {
+        display: none;
+    }
+
+    .title-blog-list {
+        margin-top: 50px;
+    }
+    .blog {
+    }
+    .footer-info {
+        width: 100%;
+        display: block;
+    }
+
+    .product-item {
+        position: relative;
+    }
+
+    .p-white {
+        display: none;
+    }
+    .menu a {
+        display: none;
+    }
+    .nav-logo a.icon-menu {
+        float: right;
+        display: block;
+    }
+
+    /*    ddoanj nayf ddeer bawt ben js*/
+    .menu.responsive {position: relative;}
+    .nav-logo.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-logo {
+        width: 128px;
+    }
+    .p-logo {
+        letter-spacing: 4px;
+        font-size: 16px;
+        margin-left: 2px;
+        text-align: inherit;
+    }
+    .nav-cart {
+        font-size: 30px;
+    }
+    .p-4 {
+        margin-right: 15px;
+    }
+    .text-image-1 {
+        display: block;
+        font-size: 18px;
+    }
+    .banner-position {
+        position: absolute;
+        height: auto;
+        right: 4.5%;
+        z-index: 1;
+        top: 57%;
+        text-align: right;
+    }
+    .btn-item {
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 11px;
+        color: #fff;
+        background: #8262b5;
+        border: 1px solid #8262b5;
+        font-family: Montserrat;
+    }
+
+    .banner-03-position {
+        top: 32%;
+    }
+
+    .text-title-ads3 {
+        font-size: 20px;
+    }
+    .text-content-ads3 {
+        font-size: 24px;
+    }
+
+    .mt-4 {
+        margin: 0 20px;
+    }
+
+    .footer-title {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .icon-web {
+        margin-top: 30px;
+    }
+    .footer-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-navigation {
+        margin-left: 20px;
+    }
+    .footer-address {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .text-information{
+        display: none;
+    }
+    .text-by {
+        display: none;
+    }
+    .footer-end{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .p-img-product {
+        padding: 0 10px;
+    }
+    /*.btn-product-add {*/
+    /*    background: white;*/
+    /*    border: 1px solid white;*/
+    /*    color: #616161;*/
+    /*    height: 40px;*/
+    /*    left: 2%;*/
+    /*    font-family: Montserrat;*/
+    /*    position: absolute;*/
+    /*    font-size: 12px;*/
+    /*    width: 120px;*/
+    /*    top: 64%;*/
+    /*}*/
+
+    .btn-product-add {
+        height: 40px;
+        width: 120px;
+        left: 2%;
+        top: 89%;
+    }
+
+}
+
+
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .search-menu-hinden {
+        display: block;
+    }
+    .click-search {
+        display: none;
+    }
+    .title-blog-list {
+        margin-top: 40px;
+    }
+
+    .header-member-shop:hover {
+        color: white;
+    }
+    .text-footer {
+        font-size: 13px;
+    }
+    .product-item {
+        position: relative;
+    }
+    .btn-product-add {
+        top: 87%;
+    }
+    .p-white {
+        display: none;
+    }
+    .menu a {
+        display: none;
+    }
+    .nav-logo a.icon-menu {
+        float: left;
+        display: block;
+    }
+
+/*    ddoanj nayf ddeer bawt ben js*/
+    .menu.responsive {
+        position: relative;
+    }
+    .menu.responsive .icon-menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-logo {
+        width: 126px;
+    }
+    .p-logo {
+        letter-spacing: 4px;
+        font-size: 16px;
+
+        text-align: inherit;
+    }
+    .nav-cart {
+        font-size: 28px;
+    }
+    .p-4 {
+        margin-right: 15px;
+    }
+
+    .nav-icon-cart {
+        font-size: 20px;
+    }
+    .btn-product {
+        top: 49%;
+    }
+    .banner-01 {
+        width: 100%;
+        position: relative;
+        height: auto;
+        max-height: 526px;
+        min-height: 500px;
+    }
+    .banner-02 {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-banner-01{
+        position: absolute;
+        height: 93.5%;
+    }
+    .banner-03-position {
+        top: 60%;
+    }
+    .txt-bly {
+        font-size: 65px;
+    }
+    .txt-eye {
+        font-size: 42px;
+    }
+    .text-banner-02 {
+        font-size: 20px;
+    }
+    .text-ads2{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .text-title-ads3 {
+        font-size: 24px;
+    }
+    .text-content-ads3 {
+        font-size: 28px;
+    }
+    .blog {
+        width: 100%;
+        height: 550px;
+    }
+    .img-blog {
+        height: auto;
+    }
+    .img-banner-000 {
+        width: 100%;
+    }
+    .text-image-1 {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .menu a {
+        display: none;
+    }
+    .nav-logo a.icon-menu {
+        float: left;
+        display: block;
+    }
+
+    /*    ddoanj nayf ddeer bawt ben js*/
+    .menu.responsive {position: relative;}
+    .nav-logo.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1240px) {
+    .btn-product-add {
+        top: 68.4%;
+    }
+    .nav-cart {
+        margin-right: 18px;
+    }
+
+}
+@media (min-width: 376px) and (max-width: 424px){
+    .blog {
+        height: 650px;
+    }
+}
+
+
+
+

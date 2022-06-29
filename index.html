@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    hiiiiiiiii-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style-02.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style-responsive.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;800;900&family=Pacifico&family=Open Sans&display=swap" rel="stylesheet">
+    <title>Bai 111</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /*.col {*/
+        /*    background-clip: content-box;*/
+        /*    margin-top: 8px;*/
+        /*    margin-bottom: 8px;*/
+        /*}*/
+
+        .information {
+            background: #000;
+        }
+        .footer-goodbye {
+            background: #000;
+        }
+        .blog {
+            background-image: url("assets/img/backgroud_blog.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header c12">
+        <div class="header-setting">
+            <div class="header-shop">
+<!--                <i class="fa-regular fa-bookmark"></i>-->
+                <i class="fa-regular fa-bookmark p-icon shop-hover"></i>
+                <p class="p-white hove-bookmark">Welcome to Franco - an e-Commerce PSD Teamplate</p>
+
+            </div>
+            <div class="header-member">
+                <div class="header-member-shop">
+                    <i class="fa-solid fa-gear p-icon p-4"></i>
+                    <p class="p-setting p-white">Shop setting</p>
+                </div>
+                <div class="header-member-login">
+                    <i class="fa-solid fa-lock p-icon"></i>
+                    <p class="p-white">Member Login</p>
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="navbar dark-mode" role="navigation">
+            <div class="nav-logo">
+                <p class="p-logo">FRANCO</p>
+            </div>
+
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="#">HOME</a></li>
+                <li class="navbar__link second"><a href="#">WOMEN</a></li>
+                <li class="navbar__link third"><a href="#">MEN</a></li>
+
+                <li class="drop-hidden drop-show nav-more">
+                    MORE
+                    <div class="dropdown">
+                        <div class="noidung_dropdown">
+                            <a class="navbar-more-drop" href="#">ABOUT US</a>
+                            <a class="navbar-more-drop" href="#">BLOG</a>
+                            <a class="navbar-more-drop" href="#">CONNECTION</a>
+                            <a class="navbar-more-drop" href="#">CONTACT</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar__link fifth"><a href="#">ABOUT US</a></li>
+                <li class="navbar__link fifth "><a href="#">BLOG</a></li>
+                <li class="navbar__link fifth "><a href="#">COLLECTIONS</a></li>
+                <li class="navbar__link fifth "><a href="#">CONTACT</a></li>
+                <li class=" ">
+                    <div class="click-search">
+                        <input class="input-responsive" type="search" placeholder="Search....">
+                        <a class="nav-all" href="#"><i class="fa-solid fa-magnifying-glass icon-search"></i></a>
+
+                    </div>
+                </li>
+                <li class="navbar__link search-menu-hinden">
+                    <div class="search-box-hin">
+                        <input class="input-hindden" type = "search" placeholder="Search.......">
+                        <div class="btn-search" >
+                            <i class="fa-solid fa-magnifying-glass mt-btn-search"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="nav-cart">
+                <div class="like-product">
+                    <i class="pe-7s-like p-28"></i>
+                </div>
+
+                <div class="cart-shopping-container">
+                    <i class="pe-7s-cart "></i>
+
+                    <div class="cart-shop">
+                        <h3 class="is-cart-shop">CART SHOP</h3>
+                        <table>
+                            <tbody>
+                                                <!--                <tr>-->
+                                                <!--                    <td><img style="width: 50px;" src="assets/img/product05.jpg" alt=""> <span class="product-name-cart"> IP 13 PRO MAX</span> </td>-->
+                                                <!--                    <td><p><span>75.00</span> $ </p></td>-->
+                                                <!--                    <td><input style="width: 30px; height: 30px;outline: none" type="number" value="1" min="1"></td>-->
+                                                <!--                    <td style="cursor: pointer"> Xoa</td>-->
+                                                <!--                </tr>-->
+                            </tbody>
+                        </table>
+
+                        <div class="sum-product">
+                            <h4 style="margin-left: 15px">Title : <span>0</span> $</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="burger">
+                <span class="bar">
+
+                </span>
+                </button>
+            </div>
+        </nav>
+
+
+    </header>
+
+        <div class="grid wide mb-33 ">
+
+                <div class="row pp-30 ">
+                    <div class="col l-8 m-12 c-12">
+                        <div class="banner-01">
+                            <img class="img-banner-01" src="assets/img/img-panel-left.png" alt="">
+
+                            <div class="text-no-eye">
+                                <h2 class="txt-bly">BLYSZAk</h2>
+                                <h2 class="txt-eye">EYEWEAP</h2>
+                            </div>
+                            <div class="banner-position">
+                                <p class="text-image-1"> Two High-end Materials</p>
+                                <button id="" class="btn-item" onclick="addProduct()">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-12 c-12  ">
+                        <div class="banner-02 ">
+                            <img class="img-banner-000" src="assets/img/ads02.jpg" alt="">
+                            <div class="banner-02-position">
+                                <p class="text-banner-02">SMALL THINK </p>
+                                <h2 class="text-ads2"> MAKE DIFFERENT</h2>
+                            </div>
+                        </div>
+                        <div class="banner-03 ">
+                            <img class="img-banner-000" src="assets/img/ads03.jpg" alt="">
+                            <div class="banner-03-position">
+                                <p class="text-title-ads3">FOLIO</p>
+                                <p class="text-content-ads3">BACKPACK</p>
+                                <button class="btn-item-ads3" onclick="addProduct()">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            <div class="row p-product-title">
+                <div class="col l-12 m-12 c-12">
+                    <div class="title-product">
+                        <p class="title-product-franco">FRANCO</p>
+                        <p class="title-product-item">FEATURED ITEMS</p>
+                        <hr width="50px"
+                            color="#8262b5"
+                            align="right"
+                            size="0.5px">
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <img class="img-product-item" src="assets/img/product02.jpg" alt="">
+                            <button class="btn-product-add">ADD TO CART</button>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=18Jvyp60Vbg&t=320s">
+                            <p class="name-product">Suspendisse id volutat</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p class="price-product">
+                                22.60
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1 ">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product03.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+                        </div>
+                        <a href="">
+                            <p class="name-product">Lorem ipsum dolor</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                            <i class="far fa-star  "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p class="price-product">
+                                175.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product06.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+                        </div>
+                        <a href="">
+                            <p class="name-product">Proin sed nulla mi</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                        </div>
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p class="price-product">
+                                55.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="https://codepen.io/trending">
+                                <img class="img-product-item" src="assets/img/product08.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+                        </div>
+                        <a href="">
+                            <p class="name-product">Aenean placerat</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p class="price-product">
+                                51.65
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product02.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+
+                        </div>
+                        <a href="">
+                            <p class="name-product">Suspendisse id volutat</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p  class="price-product">
+                                275.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product05.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+
+                        </div>
+                        <a href="">
+                            <p class="name-product">Aenean placerat</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin">$ </span>
+                            <p style="color: #8262b5" class="price-product"> 75.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product08.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+
+                        </div>
+                        <a href="">
+                            <p class="name-product">Proin at the mouse</p>
+                        </a>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star  "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;"><span>$ </span>99.00</del>
+                            <span class="coin">$ </span>
+                            <p class="price-product">
+                                75.00
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="product-item-1">
+                        <div class="product-item">
+                            <a href="">
+                                <img class="img-product-item" src="assets/img/product03.jpg" alt="">
+                            </a>
+                            <button class="btn-product-add">ADD TO CART</button>
+                        </div>
+                        <p class="name-product">Tom and Money</p>
+                        <div class="stars mt-1 wt-100">
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                            <i class="far fa-star is-checked "></i>
+                        </div>
+
+                        <div class="price-item">
+                            <del class="price-old" style="color: darkgrey;">$99.00</del>
+                            <span class="coin" >$ </span>
+                            <p  class="price-product">
+                                75.40
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <div class="blog">
+        <div class="grid wide ">
+            <div class="row ">
+                <div class="col l-12 m-12 c-12">
+                    <div class="title-blog">
+                        <p class="title-blog-list">LATEST</p>
+                        <p class="content-blog-list">NEWS & EVENTS</p>
+                        <div class="hr-blog">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row multiple-items">
+                <div class="col l-4 m-6 c-12">
+                    <div class="blog-item">
+                        <img class="img-blog" src="assets/img/blog01.jpg" alt="">
+                        <a href="">
+                            <p class="caption-blog">In commodo dolor vitae</p>
+                        </a>
+                        <p class="content-blog">
+                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris
+                            vulputate mi, eu interdum nunc diam at ipsum.
+                        </p>
+                        <hr width="100%"
+                            color="#ededed"
+                            size="0.5px">
+                        <div class="blog-icon">
+                            <div class="blog-comment">
+                                <i class="fa-regular fa-comment"></i>
+                                <p class="number-comment">12</p>
+                            </div>
+                            <div class="blog-heart">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="number-comment">60</p>
+                            </div>
+                        </div>
+
+                        <div class="blog-time">
+                            <div class="time">
+                                <p class="blog-month">Jan</p>
+                                <p class="calendar"> 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                    <div class="blog-item">
+                        <img class="img-blog"  src="assets/img/blog03.jpg" alt="">
+                        <a href="">
+                            <p class="caption-blog">In commodo dolor vitae</p>
+                        </a>
+                        <p class="content-blog">
+                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris
+                            vulputate mi, eu interdum nunc diam at ipsum.
+                        </p>
+                        <hr width="100%"
+                            color="#ededed"
+                            size="1px">
+                        <div class="blog-icon">
+                            <div class="blog-comment">
+                                <i class="fa-regular fa-comment"></i>
+                                <p class="number-comment">12</p>
+                            </div>
+                            <div class="blog-heart">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="number-comment">60</p>
+                            </div>
+                        </div>
+                        <div class="blog-time">
+                            <div class="time">
+                                <p class="blog-month">Jan</p>
+                                <p class="calendar"> 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                    <div class="blog-item">
+                        <img class="img-blog"  src="assets/img/blog02.jpg" alt="">
+                        <a href="">
+                            <p class="caption-blog">In commodo dolor vitae</p>
+                        </a>
+                        <p class="content-blog">
+                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris
+                            vulputate mi, eu interdum nunc diam at ipsum
+                        </p>
+                        <hr width="100%"
+                            color="#ededed"
+                            size="1px">
+                        <div class="blog-icon">
+                            <div class="blog-comment">
+                                <i class="fa-regular fa-comment"></i>
+                                <p class="number-comment">12</p>
+                            </div>
+                            <div class="blog-heart">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="number-comment">60</p>
+                            </div>
+                        </div>
+                        <div class="blog-time">
+                            <div class="time">
+                                <p class="blog-month">Jan</p>
+                                <p class="calendar"> 23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--                <div class="col l-4 m-6 c-12">-->
+<!--                    <div class="blog-item">-->
+<!--                        <img class="img-blog"  src="assets/img/blog02.jpg" alt="">-->
+<!--                        <a href="">-->
+<!--                            <p class="caption-blog">In commodo dolor vitae</p>-->
+<!--                        </a>-->
+<!--                        <p class="content-blog">-->
+<!--                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.-->
+<!--                            Aenean hendrerit, elit a lacinia suscipit, orci mauris-->
+<!--                            vulputate mi, eu interdum nunc diam at ipsum.</p>-->
+<!--                        <hr width="100%"-->
+<!--                            color="#ededed"-->
+<!--                            size="1px">-->
+<!--                        <div class="blog-icon">-->
+<!--                            <div class="blog-comment">-->
+<!--                                <i class="fa-regular fa-comment"></i>-->
+<!--                                <p class="number-comment">12</p>-->
+<!--                            </div>-->
+<!--                            <div class="blog-heart">-->
+<!--                                <i class="fa-regular fa-heart"></i>-->
+<!--                                <p class="number-comment">60</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="blog-time">-->
+<!--                            <div class="time">-->
+<!--                                <p class="blog-month">Jan</p>-->
+<!--                                <p class="calendar"> 23</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="information">
+
+        <div class="grid wide">
+            <div class="row">
+                <div class="footer-info">
+                    <div class="col l-3 m-4 c-12 ">
+                        <p class="footer-title">About Franco </p>
+
+                        <hr width="100%"
+                            color="#393939"
+                            size ="1px">
+
+                        <p class="footer-content">
+                            Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                            Aenean hendrerit, elit a lacinia suscipit, orci mauris
+                            vulputate mi, eu interdum nunc diam at ipsum .
+                        </p>
+                        <div class="icon-web ">
+                            <ul class="icon-web-footer">
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-twitter "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-linkedin-in "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fab fa-behance "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fas fa-basketball-ball "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12 footer-info ">
+                        <p class="footer-title">Navigation </p>
+
+                        <hr width="100%"
+                            color="#393939"
+                            size ="1px">
+                        <div class="row footer-navigation">
+                            <div class="col l-6 c-6 ">
+                                <div class="footer-navi-bar-1">
+                                    <ul>
+                                        <li class="navigation-item"><a href="">Home</a></li>
+                                        <li class="navigation-item"><a href="">About Us</a></li>
+                                        <li class="navigation-item"><a href="">Our Blog</a></li>
+                                        <li class="navigation-item"><a href="">Women</a></li>
+                                        <li class="navigation-item"><a href="">Men</a></li>
+                                        <li class="navigation-item"><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col l-6 c-6 ">
+                                <div class="footer-navi-bar-1">
+                                    <ul>
+                                        <li class="navigation-item"><a href="">FAQs</a></li>
+                                        <li class="navigation-item"><a href="">Featured Barnds</a></li>
+                                        <li class="navigation-item"><a href="">Gift Vouchers</a></li>
+                                        <li class="navigation-item"><a href="">Affliates</a></li>
+                                        <li class="navigation-item"><a href="">Special</a></li>
+                                        <li class="navigation-item"><a href="">Tems & Conditions</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-12 ">
+                        <p class="footer-title">Shop Location</p>
+                        <hr width="100%"
+                            color="#393939"
+                            size ="1px">
+
+                        <div class="footer-address">
+                            <i class="fa-solid fa-map mt-20 gray-icon"></i>
+                            <span class="text-footer">500 Hennessy Road <br>  Causeway Bay, Hong Kong</span>
+                        </div>
+                        <div class="footer-phone p">
+                            <i class="fa-solid fa-phone gray-icon"></i>
+                            <a href="tel:+0974897450">+1 223 432</a>
+
+                        </div>
+                        <div class=" p-l-r ">
+                            <i class="fa-solid fa-envelope mt-20 gray-icon"></i>
+                            <a class="text-footer" href="mailto:mail@mail.com">
+                                 pvtuan2707@gmail.com
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr width="100%"
+            color="#616161"
+            size="1px">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="footer-end ">
+                        <div class=" footer-information">
+                        <span class="text-information">
+                            @Copyright 2015 & Made with
+                        </span>
+                            <i class="fa-solid fa-heart icon-red"></i>
+                            <span class="text-by"> by</span>
+                            <a class="text-white" href="#"> ArrowHitech</a>
+                        </div>
+
+                        <div class=" footer-bank ">
+                            <i class="fa-brands fa-cc-visa gray-icon-bank"></i>
+                            <i class="fa-brands fa-cc-paypal gray-icon-bank"></i>
+                            <i class="fab fa-cc-mastercard gray-icon-bank"></i>
+                            <i class="fab fa-cc-discover gray-icon-bank"></i>
+                            <i class="fab fa-cc-amex gray-icon-bank"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/6527f591b4.js" crossorigin="anonymous"></script>
+    <script src="assets/js/custom-js.js"></script>
+</html>
