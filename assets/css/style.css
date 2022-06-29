@@ -22,6 +22,9 @@ ul {
     align-items: center;
     border: 2px solid black;
 }
+.navbar .logo-click:hover {
+    cursor: pointer;
+}
 
 .fifth {
 }
@@ -146,7 +149,7 @@ ul {
         transition: all .5s ease-in-out;
     }
     .show-nav .navbar__links {
-        background-color: #694545;
+        background-color: #eee;
         width:100vw;
         transform: translateX(0);
     }
@@ -171,13 +174,12 @@ ul {
 
     /* Toggle menu */
     .burger {
-        margin-top: 6px;
         margin-left: 30px;
         display:block;
         position:relative;
         padding:0;
         width:30px;
-        height:25px;
+        height:30px;
         border:none;
         background:#fff;
         cursor:pointer;
@@ -281,7 +283,7 @@ ul {
         transition: all .5s ease-in-out;
     }
     .show-nav .navbar__links {
-        background-color: #694545;
+        background-color: #eee;
         width:100vw;
         transform: translateX(0);
     }
@@ -306,12 +308,13 @@ ul {
 
     /* Toggle menu */
     .burger {
+        margin-right: 20px;
         margin-left: 30px;
         display:block;
         position:relative;
         padding:0;
         width:30px;
-        height:25px;
+        height:28px;
         border:none;
         background:#fff;
         cursor:pointer;
@@ -320,26 +323,26 @@ ul {
     .bar {
         display:block;
         width:30px;
-        height:5px;
-        border-radius:3px;
+        height:4px;
+        border-radius:2px;
         background:#000;
         transition: all .5s ease-in-out;
     }
     .bar::before, .bar::after {
         content:"";
         width:30px;
-        height:5px;
+        height:4px;
         position:absolute;
         left:0;
         background:#000;
-        border-radius:3px;
+        border-radius:2px;
         transition: all .5s ease-in-out;
     }
     .bar::before {
-        transform:translateY(-9px)
+        transform:translateY(-8px)
     }
     .bar::after {
-        transform:translateY(9px)
+        transform:translateY(8px)
     }
     .show-nav .bar {
         width:0;
@@ -407,10 +410,12 @@ ul {
         margin-left: 10px;
         color: white;
     }
-
 }
 
 @media (min-width: 1000px) and (max-width: 1222px) {
+    .search-box-hin {
+        display: none;
+    }
     .nav-logo {
         width: 146px;
     }

@@ -3,17 +3,23 @@
     .p-l-r {
         padding: 0 20px;
     }
+    .pp-30 {
+        margin: 0;
+    }
     .banner-01 {
-        margin-top: 30px;
+        margin-top: 15px;
         width: 100%;
         position: relative;
         height: auto;
         min-height: 310px;
     }
     .banner-02 {
-        margin-top: 30px;
+        margin: 15px 0 15px 0;
         width: 100%;
         height: auto;
+    }
+    .p-product-title {
+        margin: 30px 0 ;
     }
     .img-banner-000 {
         width: 100%;
@@ -57,29 +63,28 @@
     }
 
     .name-product {
-        padding-left: 20px;
+
     }
     .stars {
-        padding-left: 20px;
+
     }
     .price-item {
-        padding-left: 20px;
+
     }
     .product-item-1 {
-        padding: 0 20px;
     }
     .title-product {
-        padding: 0 20px;
+        margin-bottom: 30px;
     }
 
 }
 
 @media (min-width: 320px) and (max-width: 374px){
     .footer-mail {
-        margin-left: 20px;
+
     }
     .footer-phone {
-        margin-left: 20px;
+
     }
     .p-2b {
         padding: 0 12px;
@@ -130,9 +135,12 @@
     .product-item {
         position: relative;
     }
+    .pp-30 {
+        margin: 0;
+    }
 
     .banner-01 {
-        margin-top: 30px;
+        margin-top: 15px;
         width: 100%;
         position: relative;
         height: auto;
@@ -140,7 +148,7 @@
         min-height: 200px;
     }
     .banner-02 {
-        margin-top: 30px;
+        margin: 15px 0 11px 0;
         width: 100%;
         height: auto;
     }
@@ -192,8 +200,17 @@
         display: block;
         text-align: left;
     }
-
+    .header-setting{
+        padding: 0 15px;
+    }
+    .navbar{
+        padding: 0 10px 0 15px;
+    }
+    .p-icon {
+        margin: 0;
+    }
     .nav-logo {
+        margin: 0;
         width: 126px;
     }
     .p-logo {
@@ -241,32 +258,46 @@
 
     .footer-title {
         margin-top: 30px;
-        margin-left: 20px;
     }
     .footer-content {
-        padding-left: 20px;
-        padding-right: 20px;
+
     }
     .icon-web {
         margin-top: 25px;
         padding: 0 20px;
     }
     .footer-navigation {
-        margin-left: 20px;
+
     }
     .footer-address {
-        margin-top: 0px;
-        margin-left: 20px;
+
+    }
+    .footer-information {
+        margin-top: 18px;
+        display: flex;
+        font-size: 12px;
     }
     .text-information{
-        display: none;
+        margin-right: 3px;
+        font-size: 12px;
+
+    }
+    .footer-bank {
+        margin-top: 15px;
+        font-size: 30px;
     }
     .text-by {
-        display: none;
+        font-size: 12px;
+        margin: 0 3px;
     }
     .footer-end{
-        padding-right: 20px;
-        padding-left: 20px;
+        letter-spacing: 0;
+        display: block;
+
+    }
+    .text-white {
+        font-size: 12px;
+        margin-left: 3px;
     }
 
     .p-img-product {
@@ -279,13 +310,13 @@
     }
     .name-product {
         font-size: 14px;
-        padding-left: 20px;
+
     }
     .stars {
-        padding-left: 20px;
+
     }
     .price-item {
-        padding-left: 20px;
+
     }
 }
 
@@ -301,6 +332,9 @@
         padding: 0 12px;
 
     }
+    .pp-30 {
+        margin: 0;
+    }
     .p-2a {
         padding: 0 20px;
     }
@@ -312,9 +346,9 @@
     }
 
     .btn-item {
-        width: 80px;
-        height: 34px;
-        font-size: 12px;
+        width: 108px;
+        height: 44px;
+        font-size: 14px;
     }
     .blog {
         height: 600px;
@@ -337,7 +371,7 @@
     }
 
     .banner-01 {
-        margin-top: 30px;
+        margin-top: 15px;
         width: 100%;
         position: relative;
         height: auto;
@@ -345,7 +379,7 @@
         min-height: 300px;
     }
     .banner-02 {
-        margin-top: 30px;
+        margin: 15px 0;
         width: 100%;
         height: auto;
     }
@@ -399,10 +433,18 @@
     }
 
     .footer-mail, .footer-phone {
-        margin-left: 20px;
     }
-
+    .navbar {
+        padding: 0 10px 0 15px;
+    }
+    .header-setting {
+        padding: 0 15px;
+    }
+    .p-icon {
+        margin: 0;
+    }
     .nav-logo {
+        margin: 0;
         width: 118px;
     }
     .p-logo {
@@ -441,8 +483,8 @@
         font-size: 22px;
     }
     .btn-item-ads3 {
-        width: 90px;
-        height: 35px;
+        width: 108px;
+        height: 44px;
     }
 
     .mt-4 {
@@ -451,33 +493,31 @@
 
     .footer-title {
         margin-top: 30px;
-        margin-left: 20px;
+
     }
     .footer-content {
-        padding-left: 20px;
-        padding-right: 20px;
+        ;
     }
     .icon-web {
         margin-top: 25px;
-        padding: 0 20px;
+
     }
     .footer-navigation {
-        margin-left: 20px;
+
     }
     .footer-address {
-        margin-top: 0px;
-        margin-left: 20px;
+
     }
     .text-information{
-        display: none;
     }
     .text-by {
         display: none;
     }
     .footer-end{
-        padding-right: 20px;
-        padding-left: 20px;
+        margin-top: 10px;
+       flex-wrap: wrap;
     }
+
 
     .p-img-product {
         padding: 0 10px;
@@ -489,13 +529,13 @@
     }
     .name-product {
         font-size: 14px;
-        padding-left: 20px;
+
     }
     .stars {
-        padding-left: 20px;
+
     }
     .price-item {
-        padding-left: 20px;
+
     }
 }
 
@@ -514,6 +554,15 @@
     }
     .click-search {
         display: none;
+    }
+    .header-setting {
+        padding: 0 15px;
+    }
+    .p-icon {
+        margin-right: 0px;
+    }
+    .navbar {
+        padding: 0 10px 0 15px;
     }
 
     .title-blog-list {
@@ -555,6 +604,7 @@
     }
 
     .nav-logo {
+        margin: 0;
         width: 128px;
     }
     .p-logo {
@@ -570,13 +620,12 @@
         margin-right: 15px;
     }
     .footer-mail {
-        margin-left: 20px;
+
     }
     .footer-phone {
-        margin-left: 20px;
+
     }
     .icon-web-footer {
-        margin-left: 20px;
     }
     .text-image-1 {
         display: block;
@@ -591,10 +640,10 @@
         text-align: right;
     }
     .btn-item {
-        width: 80px;
-        height: 30px;
+        width: 108px;
+        height: 44px;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 11px;
         color: #fff;
         background: #8262b5;
@@ -619,31 +668,27 @@
 
     .footer-title {
         margin-top: 30px;
-        margin-left: 20px;
     }
     .icon-web {
         margin-top: 30px;
     }
     .footer-content {
-        padding-left: 20px;
-        padding-right: 20px;
+
     }
     .footer-navigation {
-        margin-left: 20px;
+
     }
     .footer-address {
-        margin-top: 0px;
-        margin-left: 20px;
+
     }
     .text-information{
-        display: none;
     }
     .text-by {
         display: none;
     }
     .footer-end{
-        padding-right: 20px;
-        padding-left: 20px;
+        margin-top: 10px;
+        flex-wrap: wrap;
     }
 
     .p-img-product {
@@ -733,6 +778,7 @@
     }
     .nav-cart {
         font-size: 28px;
+        align-items: center;
     }
     .p-4 {
         margin-right: 15px;

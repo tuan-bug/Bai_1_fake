@@ -16,21 +16,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;800;900&family=Pacifico&family=Open Sans&display=swap" rel="stylesheet">
     <title>Bai 111</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
-        /*.col {*/
-        /*    background-clip: content-box;*/
-        /*    margin-top: 8px;*/
-        /*    margin-bottom: 8px;*/
+        /** {*/
+        /*    box-sizing: border-box;*/
         /*}*/
+        /*!*.col {*!*/
+        /*!*    background-clip: content-box;*!*/
+        /*!*    margin-top: 8px;*!*/
+        /*!*    margin-bottom: 8px;*!*/
+        /*!*}*!*/
 
         .information {
             background: #000;
         }
-        .footer-goodbye {
-            background: #000;
-        }
+        /*.footer-goodbye {*/
+        /*    background: #000;*/
+        /*}*/
         .blog {
             background-image: url("assets/img/backgroud_blog.jpg");
         }
@@ -39,11 +39,11 @@
 
 <body>
 
-    <header class="header c12">
+    <header class="header">
         <div class="header-setting">
             <div class="header-shop">
 <!--                <i class="fa-regular fa-bookmark"></i>-->
-                <a class="flex-icon" href="">
+                <a class="flex-icon"  href="">
                     <i class="fa-regular fa-bookmark p-icon shop-hover"></i>
                     <p class="p-white hove-bookmark">Welcome to Franco - an e-Commerce PSD Teamplate</p>
                 </a>
@@ -67,9 +67,11 @@
         </div>
 
         <nav class="navbar dark-mode" role="navigation">
-            <div class="nav-logo">
+            <a class="logo-click" href="">
+                <div class="nav-logo">
                     <p class="p-logo">FRANCO</p>
-            </div>
+                </div>
+            </a>
 
             <ul class="navbar__links">
                 <li class="navbar__link first"><a href="#">HOME</a></li>
@@ -146,9 +148,9 @@
 
     </header>
 
-        <div class="grid wide mb-33 ">
+        <div class="grid wide ">
 
-                <div class="row pp-30 ">
+                <div class="row  pp-30 ">
                     <div class="col l-8 m-12 c-12">
                         <div class="banner-01">
                             <img class="img-banner-01" src="assets/img/img-panel-left.png" alt="">
@@ -159,7 +161,9 @@
                             </div>
                             <div class="banner-position">
                                 <p class="text-image-1"> Two High-end Materials</p>
-                                <button id="" class="btn-item" onclick="addProduct()">Shop Now</button>
+                                <a href="">
+                                    <button id="" class="btn-item" onclick="addProduct()">Shop Now</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -176,7 +180,9 @@
                             <div class="banner-03-position">
                                 <p class="text-title-ads3">FOLIO</p>
                                 <p class="text-content-ads3">BACKPACK</p>
-                                <button class="btn-item-ads3" onclick="addProduct()">Shop Now</button>
+                                <a href="">
+                                    <button class="btn-item-ads3" onclick="addProduct()">Shop Now</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -658,7 +664,7 @@
                             <i class="fa-solid fa-map mt-20 gray-icon"></i>
                             <span class="text-footer">500 Hennessy Road <br>  Causeway Bay, Hong Kong</span>
                         </div>
-                        <div class="footer-phone p">
+                        <div class="footer-phone ">
                             <i class="fa-solid fa-phone gray-icon"></i>
                             <a href="tel:+0974897450">+1 223 432</a>
 
@@ -676,28 +682,40 @@
 
             </div>
         </div>
-        <hr width="100%"
-            color="#616161"
-            size="1px">
+        <div class="border-line">
+
+        </div>
+
         <div class="grid wide">
             <div class="row">
                 <div class="col l-12 m-12 c-12">
                     <div class="footer-end ">
-                        <div class=" footer-information">
-                        <span class="text-information">
-                            @Copyright 2015 & Made with
-                        </span>
-                            <i class="fa-solid fa-heart icon-red"></i>
-                            <span class="text-by"> by</span>
-                            <a class="text-white" href="#"> ArrowHitech</a>
+                        <div class="  footer-information ">
+                            <span class="text-information">
+                                @Copyright 2015 & Made with
+                            </span>
+                                <i class="fa-solid fa-heart icon-red"></i>
+                                <span class="text-by"> by</span>
+                                <a class="text-white" href="#"> ArrowHitech</a>
                         </div>
 
-                        <div class=" footer-bank ">
-                            <i class="fa-brands fa-cc-visa gray-icon-bank"></i>
-                            <i class="fa-brands fa-cc-paypal gray-icon-bank"></i>
-                            <i class="fab fa-cc-mastercard gray-icon-bank"></i>
-                            <i class="fab fa-cc-discover gray-icon-bank"></i>
-                            <i class="fab fa-cc-amex gray-icon-bank"></i>
+                        <div class="footer-bank ">
+                            <a class="footer-bank-logo" href="">
+                                <i class="fa-brands fa-cc-visa gray-icon-bank"></i>
+                            </a>
+                            <a class="footer-bank-logo" href="">
+                                <i class="fa-brands fa-cc-paypal gray-icon-bank"></i>
+                            </a>
+                            <a class="footer-bank-logo" href="">
+                                <i class="fab fa-cc-mastercard gray-icon-bank"></i>
+                            </a>
+                            <a class="footer-bank-logo" href="">
+                                <i class="fab fa-cc-discover gray-icon-bank"></i>
+
+                            </a>
+                            <a class="footer-bank-logo" href="">
+                                <i class="fab fa-cc-amex gray-icon-bank"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
