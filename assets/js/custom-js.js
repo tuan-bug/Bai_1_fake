@@ -197,18 +197,26 @@ function addInput(){
     }
 }
 
-//dropdown
-function hamDropdown() {
-    document.querySelector(".noidung_dropdown").classList.toggle("hienThi");
-}
+const click_heart = document.querySelectorAll(".fa-heart");
+console.log(click_heart);
+click_heart.forEach(function (btn_heart,index){
+    // console.log(i,index);
+    btn_heart.addEventListener("click",function (event){{
+        var btnItem = event.target;
+        var blog = btnItem.parentElement.parentElement.parentElement ;
+        var blogImg = blog.querySelector("img.img-blog").src;
+        var blogName = blog.querySelector("p.caption-blog").innerText;
+         console.log(blog)
+         console.log(blogImg);
+         console.log(blogName);
 
-window.onclick = function(e) {
-    if (!e.target.matches('.nut_dropdown')) {
-        var noiDungDropdown = document.querySelector(".noidung_dropdown");
-        if (noiDungDropdown.classList.contains('hienThi')) {
-            noiDungDropdown.classList.remove('hienThi');
-        }
-    }
+         addBlog(blogImg, blogName);
+
+    }})
+})
+
+function addBlog(blogImg, blogName){
+    
 }
 
 function addProduct(){
