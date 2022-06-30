@@ -62,6 +62,7 @@ $(document).ready(function(){
             $(".click-search").removeClass("m-search-box");
             $(".nav-all").removeClass("m-nav-all");
             $(".icon-search").removeClass("mt-icon-search");
+            $(".icon-search").removeClass("scree-search");
             $(".dropdown").hide();
         }
     })

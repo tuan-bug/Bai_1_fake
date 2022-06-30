@@ -608,6 +608,9 @@ ul {
     font-weight: 400;
     font-family: "Open Sans",sans-serif;
 }
+.mt-12 {
+    margin-top: 12px;
+}
 
 .footer-address {
     display: flex;
@@ -623,6 +626,7 @@ ul {
 .text-footer {
     margin-left: 12px;
     font-size: 14px;
+    line-height: 34px;
     color: #888;
     font-family: "Open Sans",sans-serif;
 }
@@ -661,7 +665,7 @@ ul {
 }
 .gray-icon {
     color: #888;
-    font-size: 15px;
+    font-size: 14px;
     margin-right: 5px;
 }
 .gray-icon:hover {
@@ -940,6 +944,7 @@ tbody {
 
 }
 .fa-heart:hover{
+    cursor: pointer;
     color: red;
 }
 .like-product:hover{
