@@ -220,7 +220,12 @@
         text-align: inherit;
     }
     .like-product {
-        display: none;
+    }
+    .p-28 {
+        margin-right: 10px;
+    }
+    .burger {
+        margin-left: 16px;
     }
     .p-4 {
         margin-right: 15px;
@@ -458,7 +463,12 @@
         text-align: inherit;
     }
     .like-product {
-        display: none;
+    }
+    .burger{
+        margin-left: 16px;
+    }
+    .p-28 {
+        margin-right: 10px;
     }
     .p-4 {
         margin-right: 15px;
