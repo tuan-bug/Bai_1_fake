@@ -47,6 +47,7 @@ $(document).ready(function(){
         $(".click-search").addClass("m-search-box");
         $(".nav-all").addClass("m-nav-all");
         $(".icon-search").addClass("mt-icon-search");
+        $(".icon-search").addClass("scree-search");
     })
 
     $('body').on('click',(e) => {
@@ -216,7 +217,7 @@ click_heart.forEach(function (btn_heart,index){
 })
 
 function addBlog(blogImg, blogName){
-    
+
 }
 
 function addProduct(){

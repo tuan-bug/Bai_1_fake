@@ -942,6 +942,14 @@ tbody {
 .fa-heart:hover{
     color: red;
 }
+.like-product:hover{
+    cursor: pointer;
+    color: red;
+}
+.icon-search:hover {
+    color: #8262b5;
+    cursor: pointer;
+}
 
 
 
