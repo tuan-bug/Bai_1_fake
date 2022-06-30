@@ -19,7 +19,7 @@ $(document).ready(function(){
                 settings: {
                     arrows: false,
                     centerMode: false,
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },

@@ -112,9 +112,9 @@
     }
 
     .btn-item {
-        width: 80px;
-        height: 34px;
-        font-size: 12px;
+        width: 106px;
+        height: 40px;
+        font-size: 14px;
     }
     .blog {
         height: 600px;
@@ -123,6 +123,7 @@
         margin-top: 30px;
     }
     .footer-info {
+        margin-bottom: 25px;
         display: block;
     }
 
@@ -170,11 +171,11 @@
         font-size: 23px;
     }
     .text-banner-02 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .text-ads2{
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .p-white {
@@ -226,7 +227,7 @@
     }
     .text-image-1 {
         display: block;
-        font-size: 14px;
+        font-size: 16px;
     }
     .banner-position {
         position: absolute;
@@ -242,14 +243,14 @@
     }
 
     .text-title-ads3 {
-        font-size: 18px;
+        font-size: 12px;
     }
     .text-content-ads3 {
-        font-size: 22px;
+        font-size: 16px;
     }
     .btn-item-ads3 {
-        width: 90px;
-        height: 35px;
+        width: 106px;
+        height: 40px;
     }
 
     .mt-4 {
@@ -274,7 +275,6 @@
     }
     .footer-information {
         margin-top: 18px;
-        display: flex;
         font-size: 12px;
     }
     .text-information{
@@ -283,7 +283,8 @@
 
     }
     .footer-bank {
-        margin-top: 15px;
+        justify-content: center;
+        margin-top: 5px;
         font-size: 30px;
     }
     .text-by {
@@ -346,8 +347,8 @@
     }
 
     .btn-item {
-        width: 108px;
-        height: 44px;
+        width: 106px;
+        height: 40px;
         font-size: 14px;
     }
     .blog {
@@ -357,6 +358,7 @@
         margin-top: 30px;
     }
     .footer-info {
+        margin-bottom: 25px;
         display: block;
     }
 
@@ -483,8 +485,8 @@
         font-size: 22px;
     }
     .btn-item-ads3 {
-        width: 108px;
-        height: 44px;
+        width: 106px;
+        height: 40px;
     }
 
     .mt-4 {
@@ -515,7 +517,7 @@
     }
     .footer-end{
         margin-top: 10px;
-       flex-wrap: wrap;
+
     }
 
 
@@ -571,6 +573,7 @@
     .blog {
     }
     .footer-info {
+        margin-bottom: 25px;
         width: 100%;
         display: block;
     }
@@ -640,8 +643,8 @@
         text-align: right;
     }
     .btn-item {
-        width: 108px;
-        height: 44px;
+        width: 106px;
+        height: 40px;
         text-align: center;
         font-size: 14px;
         margin-top: 11px;
@@ -681,10 +684,18 @@
     .footer-address {
 
     }
+    .footer-information {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bank {
+        margin-top: -10px;
+        width: 100%;
+        justify-content: center;
+    }
     .text-information{
     }
     .text-by {
-        display: none;
     }
     .footer-end{
         margin-top: 10px;
@@ -715,7 +726,11 @@
     }
 
 }
-
+@media (min-width: 600px) and (max-width: 739px) {
+    .blog {
+        height: 600px;
+    }
+}
 
 @media (min-width: 740px) and (max-width: 999px) {
     .click-search {

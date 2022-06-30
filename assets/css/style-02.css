@@ -241,8 +241,8 @@
     font-family: Pacifico;
 }
 .btn-item {
-    width: 108px;
-    height: 44px;
+    width: 106px;
+    height: 40px;
     text-align: center;
     font-size: 14px;
     margin-top: 11px;
@@ -253,8 +253,8 @@
 
 }
 .btn-item-ads3 {
-    width: 108px;
-    height: 44px;
+    width: 106px;
+    height: 40px;
     font-family: Montserrat;
     text-align: center;
     font-size: 14px;
@@ -741,6 +741,7 @@ ul {
 
 
 .icon-search {
+    font-size: 14px;
     position: relative;
 }
 
