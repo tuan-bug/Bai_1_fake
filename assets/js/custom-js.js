@@ -5,6 +5,7 @@ $(document).ready(function(){
         nav: false,
         dots:true,
         nextArrow: false,
+        arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed :1000,
