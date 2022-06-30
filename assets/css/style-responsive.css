@@ -717,14 +717,16 @@
 }
 
 
-
+@media (min-width: 740px) and (max-width: 999px) {
+    .click-search {
+        display: none;
+    }
+}
 @media (min-width: 740px) and (max-width: 1023px) {
     .search-menu-hinden {
         display: block;
     }
-    .click-search {
-        display: none;
-    }
+
     .title-blog-list {
         margin-top: 40px;
     }

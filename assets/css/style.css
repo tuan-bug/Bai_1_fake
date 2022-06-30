@@ -79,6 +79,7 @@ ul {
     position: relative;
 }
 .nav-more:hover{
+    cursor: pointer;
     color: #8262b5;
 }
 .dropdown {

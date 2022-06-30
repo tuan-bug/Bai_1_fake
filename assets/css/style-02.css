@@ -62,7 +62,6 @@
 .header-shop {
     display: flex;
 
-
 }
 .p-img-product {
     padding-top: 29px;
@@ -824,10 +823,14 @@ tbody {
     font-weight: bold;
 }
 .cart-shopping-container:hover .cart-shop {
+    cursor: pointer;
     display: block;
 
 }
-
+.cart-shopping-container:hover i {
+    color: #8262b5;
+    cursor: pointer;
+}
 .search-box {
     width: 60px;
 }
