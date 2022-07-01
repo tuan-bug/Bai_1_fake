@@ -893,6 +893,7 @@ tbody {
 .input-responsive {
     width: 0px;
     border: none;
+    font-family: Montserrat;
 
     /*border-radius: 20px;*/
     /*padding: 10px 10px;*/
@@ -954,6 +955,34 @@ tbody {
 .icon-search:hover {
     color: #8262b5;
     cursor: pointer;
+}
+.hide-header-member {
+    display: none;
+}
+.hide-header-member {
+    position: relative;
+}
+.show-hide-header-member{
+
+    width: 150px;
+    background: #fff;
+    top:20px;
+    right: 0;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    border: 1px solid black;
+}
+
+.hide-header-member:hover .show-hide-header-member{
+    cursor: pointer;
+    display: block;
+}
+.flex-icon-hide-1:hover {
+    color: #8262b5;
+}
+.flex-icon-hide:hover {
+    color: #8262b5;
 }
 
 

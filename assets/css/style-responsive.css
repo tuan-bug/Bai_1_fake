@@ -178,9 +178,47 @@
         margin-top: 10px;
         font-size: 16px;
     }
+    .header-member-shop {
+        display: none;
+    }
+    .header-member-login {
+        display: none;
+    }
+
+    .hide-header-member {
+        display: block;
+    }
 
     .p-white {
-        display: none;
+        margin-left: 5px;
+       font-size: 12px;
+    }
+    .header-member-shop-1 {
+        display: flex;
+        column-gap: 5px;
+    }
+    .header-member-login-2 {
+        display: flex;
+    }
+    .flex-icon-hide {
+        width: 100%;
+        color: black;
+        display: flex;
+        padding: 15px 0 10px 5px;
+        border-bottom: 1px solid black;
+
+    }
+    .flex-icon-hide-1 {
+        width: 100%;
+        color: black;
+        display: flex;
+        padding: 15px 0 10px 5px;
+
+    }
+    .setting-hide {
+        margin-left: 5px;
+        font-size: 14px;
+        font-family: "Open Sans";
     }
     .menu a {
         display: none;
@@ -419,7 +457,33 @@
     }
 
     .p-white {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .header-member-shop {
         display: none;
+    }
+    .header-member-login {
+        display: none;
+    }
+    .hide-header-member {
+        display: block;
+    }
+    .flex-icon-hide {
+        color: black;
+        font-family: "Open Sans";
+        display: flex;
+        padding: 15px 0 10px 5px;
+        border-bottom: 1px solid black;
+    }
+    .flex-icon-hide-1 {
+        color: black;
+        font-family: "Open Sans";
+        display: flex;
+        padding: 15px 0 10px 5px;
+    }
+    .setting-hide {
+        margin-left: 5px;
     }
     .menu a {
         display: none;
@@ -594,9 +658,46 @@
     .product-item {
         position: relative;
     }
+    .header-member-shop {
+        display: none;
+    }
+    .header-member-login {
+        display: none;
+    }
+    .hide-header-member{
+        height: 100%;
+        display: block;
+    }
+    .hide-header-member:hover{
+        cursor: pointer;
+    }
+    .flex-icon {
+
+    }
+    .flex-icon-hide {
+        font-size: 14px;
+        font-family: "Open Sans";
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0 10px 5px ;
+        border-bottom: 1px solid black;
+
+    }
+    .flex-icon-hide-1 {
+        font-size: 14px;
+        font-family: "Open Sans";
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0 10px 5px ;
+    }
+    .setting-hide {
+        margin-left: 5px;
+    }
 
     .p-white {
-        display: none;
+        margin-left: 5px;
     }
     .menu a {
         display: none;
