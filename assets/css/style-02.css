@@ -900,7 +900,8 @@ tbody {
     /*position: relative;*/
 }
 .input-responsive-click {
-    padding-left: 10px;
+    font-size: 14px;
+    padding-left: 15px;
     width: 220px;
     height: 42px;
     border: 1px solid black;
@@ -960,6 +961,7 @@ tbody {
     display: none;
 }
 .hide-header-member {
+    width: 14px;
     position: relative;
 }
 .show-hide-header-member{
@@ -972,6 +974,10 @@ tbody {
     position: absolute;
     z-index: 2;
     border: 1px solid black;
+}
+
+.mr-1 {
+    margin-left: 10px;
 }
 
 .hide-header-member:hover .show-hide-header-member{
