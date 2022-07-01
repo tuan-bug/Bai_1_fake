@@ -129,7 +129,8 @@
 
 
     .cart-shop {
-        width: 310px;
+        width: 300px;
+        right: -45px;
     }
 
 
@@ -876,6 +877,9 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1239px) {
+    .footer-info {
+        margin-bottom: 20px;
+    }
     .menu a {
         display: none;
     }
