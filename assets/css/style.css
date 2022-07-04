@@ -185,7 +185,7 @@ ul {
         /*justify-content: center;*/
     }
     .mt-btn-search {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 10px;
         margin-left: 15px;
         color: white;
@@ -293,6 +293,10 @@ ul {
     .show-nav .fifth {
         transition: all 1.4s ease-out;
     }
+
+    .click-search-4 {
+        display: none;
+    }
 }
 
 
@@ -301,6 +305,10 @@ ul {
 
 /*  Small device */
 @media (min-width: 501px) and (max-width:999px) {
+    .click-search-4 {
+        display: none;
+    }
+
     .nav-logo {
         width: 126px;
     }
@@ -477,6 +485,7 @@ ul {
         display: flex;
     }
     .mt-btn-search {
+        font-size: 18px;
         margin-top: 10px;
         margin-left: 15px;
         color: white;
