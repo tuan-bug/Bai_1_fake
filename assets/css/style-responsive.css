@@ -54,6 +54,7 @@
     }
     .cart-shop {
         width: 350px;
+        right: -50px;
     }
     .title-cart {
         margin-left: 14px;
@@ -130,7 +131,7 @@
 
     .cart-shop {
         width: 300px;
-        right: -45px;
+        right: -65px;
     }
 
 
@@ -410,7 +411,8 @@
 
 
     .cart-shop {
-        width: 310px;
+        width: 320px;
+        right: -50px;
     }
 
 
@@ -898,16 +900,9 @@
         text-align: left;
     }
 
-    .nav-logo {
-        width: 126px;
-    }
-    .p-logo {
-        letter-spacing: 4px;
-        font-size: 16px;
 
-        text-align: inherit;
-    }
     .nav-cart {
+        padding-right: 20px;
         font-size: 28px;
         align-items: center;
     }
@@ -963,7 +958,7 @@
     }
     .blog {
         width: 100%;
-        height: 550px;
+        height: 580px;
     }
     .img-blog {
         height: auto;
@@ -1008,7 +1003,7 @@
         top: 68.4%;
     }
     .nav-cart {
-        margin-right: 18px;
+
     }
 
 }

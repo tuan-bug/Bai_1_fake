@@ -36,34 +36,35 @@ $(document).ready(function(){
         ]
     });
 
-    $(".nav-more").click(function (){
+    /*$(".nav-more").click(function (){
         $(".dropdown").show();
-    })
+    })*/
 
-    $(".click-search").click(function (){
-        $(".drop-hidden").show();
-        $(".fifth").addClass("nav-hinden");
-        $(".input-responsive").addClass("input-responsive-click");
-        $(".click-search").addClass("m-search-box");
-        $(".nav-all").addClass("m-nav-all");
-        $(".icon-search").addClass("mt-icon-search");
-        $(".icon-search").addClass("scree-search");
+    $(".click-search-4").click(function (){
+        $(".click-search-show").show();
+
     })
 
     $('body').on('click',(e) => {
         console.log("body body 000 ........");
-        var content = $(".click-search");
-        var content2 = $(".nav-more");
-        if(!content.is(e.target) && content.has(e.target).length === 0 && !content2.is(e.target) ){
+        var content = $(".click-search-4");
+        var content2 = $(".input-hindden-1");
+        var content3 = $(".btn-search-1");
+        var content4 = $(".hide-header-member");
+
+
+
+        if(!content.is(e.target) && content.has(e.target).length === 0
+            && !content2.is(e.target)&& !content3.is(e.target)&& !content4.is(e.target) ){
             console.log("body body ........");
-            $(".drop-hidden").hide();
-            $(".fifth").removeClass("nav-hinden");
-            $(".input-responsive").removeClass("input-responsive-click");
-            $(".click-search").removeClass("m-search-box");
-            $(".nav-all").removeClass("m-nav-all");
-            $(".icon-search").removeClass("mt-icon-search");
-            $(".icon-search").removeClass("scree-search");
-            $(".dropdown").hide();
+            $(".click-search-show").hide();
+            // $(".fifth").removeClass("nav-hinden");
+            // $(".input-responsive").removeClass("input-responsive-click");
+            // $(".click-search").removeClass("m-search-box");
+            // $(".nav-all").removeClass("m-nav-all");
+            // $(".icon-search").removeClass("mt-icon-search");
+            // $(".icon-search").removeClass("scree-search");
+            // $(".dropdown").hide();
         }
     })
 

@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 ul {
     list-style:none;
 }
@@ -111,6 +117,40 @@ ul {
     color: black;
     font-family: Montserrat;
     font-weight: 500;
+}
+
+.click-search-show {
+    display: none;
+    align-items: center;
+    position: absolute;
+    top:30px;
+    right: -195px;
+    height: 60px;
+    background: #888888;
+}
+.input-hindden-1 {
+    font-family: Montserrat;
+    font-size: 14px;
+    padding-left: 15px;
+    border: 1px solid black;
+    width: 160px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.btn-search-1 {
+    background-color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.mt-btn-search-1 {
+    margin-top: 7px;
+    margin-left: 9px;
+    color: white;
 }
 
 
@@ -261,6 +301,15 @@ ul {
 
 /*  Small device */
 @media (min-width: 501px) and (max-width:999px) {
+    .nav-logo {
+        width: 126px;
+    }
+    .p-logo {
+        letter-spacing: 4px;
+        font-size: 16px;
+
+        text-align: inherit;
+    }
     .input-hindden {
         font-family: Montserrat;
         padding-left: 20px;
@@ -452,6 +501,16 @@ ul {
     .navbar__links {
         transform: translateX(-10px);
     }
+    .click-search-show {
+        right: -150px;
+    }
+    .input-hindden-1 {
+        width: 150px;
+    }
+    .btn-search-1 {
+        width: 30px;
+    }
+
 }
 
 @media (min-width: 1223px) and (max-width: 1439px){
@@ -460,39 +519,15 @@ ul {
     }
 }
 
-/*!*dropdown*!*/
-/*.nut_dropdown {*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    background: white;*/
-/*    border: 2px solid #8d8a8a;*/
-/*    color: black;*/
-/*    font-family: Montserrat;*/
-/*    padding: 12px;*/
-/*    font-size: 16px;*/
-/*    font-weight: bold;*/
-/*    border-radius: 10px;*/
-/*}*/
-/*!* Thiết lập vị trí cho thẻ div với class dropdown*!*/
+.click-search-4 {
+    position: relative;
+}
+.click-search-show-hide {
+    padding: 0 4px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 
-/*!* Nội dung Dropdown *!*/
+}
 
-/*.noidung_dropdown {*/
-/*    !*Ẩn nội dụng các đường dẫn*!*/
-
-/*    background-color: #f1f1f1;*/
-/*    font-family: Montserrat;*/
-
-/*    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-/*}*/
-/*!* Thiết kế style cho các đường dẫn tronng Dropdown *!*/
-/*.noidung_dropdown a {*/
-/*    color: black;*/
-/*    padding: 12px 16px;*/
-/*    text-decoration: none;*/
-/*    display: block;*/
-/*}*/
-/*.hienThi{*/
-/*    display:block;*/
-/*}*/
 
