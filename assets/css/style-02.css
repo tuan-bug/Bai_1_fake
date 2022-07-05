@@ -667,7 +667,7 @@ ul {
 .gray-icon {
     margin-bottom: 24px;
     font-size: 14px;
-    margin-right: 5px;
+
 }
 .gray-icon-phone {
     font-size: 12px;
@@ -681,8 +681,12 @@ ul {
     align-items: center;
     color: #888;
 }
+.footer-mail {
+    padding-top: 7px;
+}
 .address-link:hover {
     color: white;
+
 }
 .gray-icon-bank {
     color: #888;
