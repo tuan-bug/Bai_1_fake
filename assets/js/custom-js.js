@@ -36,9 +36,6 @@ $(document).ready(function(){
         ]
     });
 
-    /*$(".nav-more").click(function (){
-        $(".dropdown").show();
-    })*/
 
     $(".click-search-4").click(function (){
         $(".click-search-show").show();
@@ -46,44 +43,21 @@ $(document).ready(function(){
     })
 
     $('body').on('click',(e) => {
-        console.log("body body 000 ........");
         var content = $(".click-search-4");
         var content2 = $(".input-hindden-1");
         var content3 = $(".btn-search-1");
         var content4 = $(".hide-header-member");
 
-
-
         if(!content.is(e.target) && content.has(e.target).length === 0
             && !content2.is(e.target)&& !content3.is(e.target)&& !content4.is(e.target) ){
             console.log("body body ........");
             $(".click-search-show").hide();
-            // $(".fifth").removeClass("nav-hinden");
-            // $(".input-responsive").removeClass("input-responsive-click");
-            // $(".click-search").removeClass("m-search-box");
-            // $(".nav-all").removeClass("m-nav-all");
-            // $(".icon-search").removeClass("mt-icon-search");
-            // $(".icon-search").removeClass("scree-search");
-            // $(".dropdown").hide();
         }
     })
 
-    // $('body').click(function (){
-    //     console.log("body body ........");
-    //     $(".drop-hidden").hidden;
-    //     $(".fifth").remove("nav-hinden");
-    //     $(".input-responsive").remove("input-responsive-click");
-    //     $(".click-search").remove("m-search-box");
-    //     $(".nav-all").remove("m-nav-all");
-    //     $(".icon-search").remove("mt-icon-search");
-    // })
-
-
 });
 
-
-
-
+// menu responsive
 function toggleMenu () {
     const navbar = document.querySelector('.navbar');
     const burger = document.querySelector('.burger');
@@ -95,21 +69,17 @@ function toggleMenu () {
 toggleMenu();
 
 
-
+// when click button ADD TO CART
 const btn = document.querySelectorAll("button.btn-product-add")
 console.log(btn);
 
 btn.forEach(function (button,index){
-    // console.log(button,index);
     button.addEventListener("click",function (event){{
         var btnItem = event.target;
         var product = btnItem.parentElement.parentElement ;
         var productImg = product.querySelector("img.img-product-item").src;
         var productName = product.querySelector("p.name-product").innerText;
         var productPrice = product.querySelector("p.price-product").innerText;
-        // console.log(product)
-        // console.log(productImg);
-        // console.log(productName);
         console.log(productPrice)
 
         addCart(productImg,productName,productPrice)
@@ -117,7 +87,7 @@ btn.forEach(function (button,index){
 })
 
 
-// them san pham vao trong gio hang
+// add product to cart
 function addCart(productImg,productName,productPrice){
     var addtr = document.createElement("tr");
     var cartItem = document.querySelectorAll("tbody tr");
@@ -125,7 +95,7 @@ function addCart(productImg,productName,productPrice){
         var productTemp = document.querySelectorAll(".title-cart");
         if(productTemp[i].innerText == productName){
             console.log(productTemp[i].innerHTML);
-            alert("Sản phẩm đã có trong giỏ hàng");
+            alert("Product already in the cart. Please increase the product in the cart.");
             return;
         }
 
@@ -149,7 +119,6 @@ function addCart(productImg,productName,productPrice){
 function  cartTotal(){
     var priceAll = 0;
     var cartItem = document.querySelectorAll("tbody tr");
-    // console.log(cartItem)
     for(var i = 0; i < cartItem.length;i++){
         var inputValue = cartItem[i].querySelector("input").value;
         var productPrice = cartItem[i].querySelector(".cart-to-price").innerText;
@@ -157,20 +126,14 @@ function  cartTotal(){
         var priceProduct = inputValue * productPrice;
         priceProduct = priceProduct
         priceAll =  priceAll + priceProduct;
-        // console.log(priceAll)
     }
     addInput();
     var cartIndex = document.querySelector(".sum-product span");
-    cartIndex.innerHTML = priceAll
-    console.log(cartIndex);
-    // khi tang so luong hang len
-
-
+    cartIndex.innerHTML = priceAll;
 }
 
 
-// xoa ra khoi gio hang
-
+// del product to the cart
 function deleteCart(){
     var cartItem = document.querySelectorAll("tbody tr");
     for(var i = 0; i < cartItem.length;i++){
@@ -203,7 +166,6 @@ function addInput(){
 const click_heart = document.querySelectorAll(".fa-heart");
 console.log(click_heart);
 click_heart.forEach(function (btn_heart,index){
-    // console.log(i,index);
     btn_heart.addEventListener("click",function (event){{
         var btnItem = event.target;
         var blog = btnItem.parentElement.parentElement.parentElement ;
@@ -222,8 +184,5 @@ function addBlog(blogImg, blogName){
 
 }
 
-function addProduct(){
-    alert("Please wait......");
-}
 
 

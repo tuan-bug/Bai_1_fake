@@ -126,9 +126,9 @@ ul {
     top:30px;
     right: -195px;
     height: 60px;
-    background: #888888;
 }
 .input-hindden-1 {
+    outline: none;
     font-family: Montserrat;
     font-size: 14px;
     padding-left: 15px;
@@ -532,6 +532,7 @@ ul {
     position: relative;
 }
 .click-search-show-hide {
+    border-radius: 7px;
     padding: 0 4px;
     height: 100%;
     display: flex;
