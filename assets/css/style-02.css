@@ -619,7 +619,6 @@ ul {
 }
 
 .footer-address {
-    display: flex;
     margin-top: 20px;
     line-height: 33px;
 }
@@ -633,11 +632,7 @@ ul {
     margin-left: 12px;
     font-size: 14px;
     line-height: 34px;
-    color: #888;
     font-family: "Open Sans",sans-serif;
-}
-.text-footer:hover {
-    color: white;
 }
 
 .footer-navi-bar-1 a {
@@ -670,23 +665,23 @@ ul {
 
 }
 .gray-icon {
-    color: #888;
+    margin-bottom: 24px;
     font-size: 14px;
     margin-right: 5px;
 }
 .gray-icon-phone {
-    color: #888;
     font-size: 12px;
     margin-right: 5px;
 }
 .gray-cart {
     color: #222222;
 }
-.gray-icon:hover {
-    color: white;
-    cursor: pointer;
+.address-link {
+    display: flex;
+    align-items: center;
+    color: #888;
 }
-.gray-icon-phone:hover {
+.address-link:hover {
     color: white;
 }
 .gray-icon-bank {
@@ -704,14 +699,11 @@ ul {
 .br-footer-down {
     margin-top: 10px;
 }
-.footer-phone a{
-    color: #8d8a8a;
-    font-family: "Open Sans",sans-serif;
+
+.phone-link-number {
     margin-left: 12px;
 }
-.footer-phone a:hover {
-    color: white;
-}
+
 
 .footer-end {
     letter-spacing: 0.3px;
