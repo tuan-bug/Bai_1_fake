@@ -50,7 +50,7 @@ $(document).ready(function(){
 
         if(!content.is(e.target) && content.has(e.target).length === 0
             && !content2.is(e.target)&& !content3.is(e.target)&& !content4.is(e.target) ){
-            console.log("body body ........");
+
             $(".click-search-show").hide();
         }
     })
