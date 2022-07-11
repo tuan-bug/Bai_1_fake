@@ -1,4 +1,5 @@
 
+
 $(document).ready(function(){
 
     $('.multiple-items').slick({
@@ -78,7 +79,7 @@ btn.forEach(function (button,index){
         var btnItem = event.target;
         var product = btnItem.parentElement.parentElement ;
         var productImg = product.querySelector("img.img-product-item").src;
-        var productName = product.querySelector("p.name-product").innerText;
+        var productName = product.querySelector("h4.name-product").innerText;
         var productPrice = product.querySelector("p.price-product").innerText;
         console.log(productPrice)
 
@@ -171,11 +172,11 @@ click_heart.forEach(function (btn_heart,index){
         var blog = btnItem.parentElement.parentElement.parentElement ;
         var blogImg = blog.querySelector("img.img-blog").src;
         var blogName = blog.querySelector("p.caption-blog").innerText;
-         console.log(blog)
-         console.log(blogImg);
-         console.log(blogName);
+        console.log(blog)
+        console.log(blogImg);
+        console.log(blogName);
 
-         addBlog(blogImg, blogName);
+        addBlog(blogImg, blogName);
 
     }})
 })
@@ -183,6 +184,4 @@ click_heart.forEach(function (btn_heart,index){
 function addBlog(blogImg, blogName){
 
 }
-
-
 
